@@ -16,7 +16,7 @@ This is a solution to the [Product preview card component challenge on Frontend 
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
+
 
 ## Overview
 
@@ -35,7 +35,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [https://github.com/ldonnianni/product-preview-card-component](https://github.com/ldonnianni/product-preview-card-component)
-- Live Site URL: [https://ldonnianni.github.io/product-preview-card-component/](https://ldonnianni.github.io/product-preview-card-component/)
+- Live Site URL: [https://ldonnianni.github.io/product-preview-card-component-SCSS/](https://ldonnianni.github.io/product-preview-card-component-SCSS/)
 
 ## My process
 
@@ -74,12 +74,11 @@ I learned how to put 2 images in HTML and use a media query to choose the correc
             <source srcset="
             images/image-product-mobile.jpg">
 
-            <img src="./images/image-product-desktop.jpg" alt="perfume-Gabrielle">
+            <img src="images/image-product-desktop.jpg" alt="perfume-Gabrielle">
         </picture>
 ```
 
-I learned to code in CSS with SCSS. (sass.). In combination with the BEM naming convention, makes it easier and cleaner.
-
+I learned to code in CSS with SCSS. In combination with the BEM naming convention, makes it easier and cleaner.
 
 
 
@@ -104,5 +103,3 @@ I would like to keep learning about Sass and Bem naming convntions. It was my fi
 - Frontend Mentor - [@ldonnianni](https://www.frontendmentor.io/profile/ldonnianni)
 
 
-
-**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
