@@ -34,7 +34,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [https://github.com/ldonnianni/product-preview-card-component](https://github.com/ldonnianni/product-preview-card-component)
+- Solution URL: [https://github.com/ldonnianni/product-preview-card-component-SCSS](https://github.com/ldonnianni/product-preview-card-component-SCSS)
 - Live Site URL: [https://ldonnianni.github.io/product-preview-card-component-SCSS/](https://ldonnianni.github.io/product-preview-card-component-SCSS/)
 
 ## My process
