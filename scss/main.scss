@@ -1,0 +1,151 @@
+@import 'config';
+
+body{
+    background-color: $Cream;
+    height: 100vh;  
+}
+
+
+.product-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+    img {
+        width: 350px;
+        display: block;
+        border-radius: 10px 10px 0px 0px;
+    }
+
+    &__info {
+        background-color: $White;
+        border-radius: 0px 0px 10px 10px;
+        display: flex;
+        flex-direction: column;
+        height: 430px;
+        width: 350px;
+        justify-content: space-evenly;
+    }
+
+    &__info-name{
+        font-size: .7rem;
+        letter-spacing: .4rem;
+        font-family: Montserrat;
+        color: $Dark_grayish_blue;
+        font-weight: 500;
+        text-transform: uppercase;
+        margin-left: 25px;
+        margin-top: 10px;
+    }
+
+    &__info-brand {
+        font-family: Fraunces;
+        font-size: 1.95rem;
+        line-height: 1em;
+        color: $Very_dark_blue;
+        font-weight: 700;
+        margin-left: 25px;
+        margin-right: 40px;
+    }
+
+    &__info-description {
+        font-family: Montserrat;
+        font-size: .9rem;
+        color: $Dark_grayish_blue;
+        font-weight: 400;
+        line-height: 1.8em;
+        margin-left: 25px;
+        margin-right: 25px;
+    }
+
+    &__info-price {
+        font-family: Fraunces;
+        color: $Dark_cyan;
+        font-weight: 700;
+        font-size: 2rem;
+        margin-left: 25px;
+    }
+
+    &__info-old-price {
+        font-family: Montserrat;
+        color: $Dark_grayish_blue;
+        font-weight: 500;
+        font-size: .85rem;
+        text-decoration:line-through;
+        margin-left: 15px;
+        line-height: 2rem;
+        vertical-align: middle;
+    }
+
+    &__info-btn {
+        background-color: $Dark_cyan;
+        color: $White;
+        font-family: Montserrat;
+        font-size: .8rem;
+        padding: 15px;
+        width: 85%;
+        align-self: center;
+        border-radius: 10px;
+        border: none;
+
+        i {
+            margin-right: 15px;
+        }
+    }
+}
+
+.attribution {
+    font-size: 9px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10px;
+
+    a { 
+        font-size: 10px;
+        text-decoration: none;
+        color: black;
+        font-weight: bold;
+        cursor: pointer;
+
+        &:hover {
+            color: rgb(7, 7, 154);
+        }
+    }
+}
+
+@include desktop {
+   
+    .product-card {
+        display: flex;
+        flex-direction: row;
+
+        img {
+            width: 300px;
+            height: 450px;
+            display: block;
+            border-radius: 10px 0px 0px 10px;
+        }
+
+        &__info {
+            width: 300px;
+            height: 450px;
+            border-radius: 0px 10px 10px 0px;
+        }
+    }
+
+    .attribution {
+    font-size: 11px;
+
+        a { 
+            font-size: 10px;
+        }
+    }
+
+
+  
+}
